@@ -11,17 +11,27 @@
 
             <nav>
                 <ul class="poppinSemiBold navfont">
-                    <li class="left"><a class="white" href="#sejarah">Wegame</a></li>
+                    <li class="left">
+                        <a class="white" href="#sejarah">Wegame</a>
+                    </li>
                     <div class="navright">
-                    <li ><a class="white" href="#sejarah">Home</a></li>
-                    <li><a class="white" href="#geografis">Discussion</a></li>
-                    <li><a class="white" href="#wisata">About</a></li>
+                    <li>
+                        <a class="white" href="#sejarah">Home</a>
+                    </li>
+                    <li>
+                        <a class="white" href="#geografis">Discussion</a>
+                    </li>
+                    <li>
+                        <a class="white" href="#wisata">About</a>
+                    </li>
                     </div>
                 </ul>
              </nav>
              <h1 class="poppinBold white jumbotron">BEST GAMING COMMUNITY AROUND THE WORLD</h1>
         </header>
+        
         <main>
+            
             <aside class="sidebar">
                 <div class="profilecard">
                     <figure>
@@ -37,68 +47,83 @@
                     <button class="button editprofile center poppinSemiBold">Edit Profile</button>
                 </div>
             </aside>
-            <div class="content">         
+            <div class="content">  
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search game here..." class="poppinLight">        
                 <div class="container gamelist">
                     <div class="box">
                         <div class="gamecard dota">
                            <div class="center">
-                            <img src="assets/img/dota.png" class="gamepreview center">
-                            <p class="gamelabel poppinBold">DOTA 2</p>
-                            <button class="button dota center poppinSemiBold">Join</button>
+                               <article>
+                                 <img src="assets/img/dota.png" class="gamepreview center">
+                                  <p id="dota2" class="gamelabel poppinBold">DOTA 2</p>
+                                 <button class="button dota center poppinSemiBold">Join</button>
+                              </article>
                         </div>
                         </div>
                     </div>
                     <div class="box">
                         <div class="gamecard csgo">
                             <div class="center">
+                                <article>
                                 <img src="assets/img/csgo-icon-42849.png" class="gamepreview center">
-                                <p class="gamelabel poppinBold">CS:GO</p>
+                                <p id="csgo" class="gamelabel poppinBold">CS:GO</p>
                                 <button class="button csgo center poppinSemiBold">Join</button>
+                                </article>
                             </div>
                         </div>
                     </div>
                     <div class="box">
                         <div class="gamecard valorant">
                            <div class="center">
+                               <article>
                                  <img src="assets/img/valoranticon.png" class="gamepreview center">
-                                 <p class="gamelabel poppinBold">Valorant</p>
+                                 <p id="valorant" class="gamelabel poppinBold">Valorant</p>
                                  <button class="button valorant center poppinSemiBold">Join</button>
+                                </article>
                            </div>
                         </div>
                     </div>
                     <div class="box">
                         <div class="gamecard pubg">
                             <div class="center">
+                                <article>
                                 <img src="assets/img/pubgicon.png" class="gamepreview center">
-                                <p class="gamelabel poppinBold">PUBG</p>
+                                <p id="pubg" class="gamelabel poppinBold">PUBG</p>
                                 <button class="button pubg center poppinSemiBold">Join</button>
+                            </article>
                             </div>
                         </div>
                     </div>
                     <div class="box">
                         <div class="gamecard fortnite">
                            <div class="center">
+                               <article>
                             <img src="assets/img/fortniteicon.png" class="gamepreview center">
-                            <p class="gamelabel poppinBold">Fornite</p>
+                            <p id="fortnite" class="gamelabel poppinBold">Fornite</p>
                             <button class="button fortnite center poppinSemiBold">Join</button>
+                              </article>
                         </div>
                         </div>
                     </div>
                     <div class="box">
                         <div class="gamecard warzone">
                             <div class="center">
+                                <article>
                                 <img src="assets/img/warzoneicon.png" class="gamepreview center">
-                                <p class="gamelabel poppinBold">COD:Warzone</p>
+                                <p id="warzone" class="gamelabel poppinBold">COD:Warzone</p>
                                 <button class="button warzone center poppinSemiBold">Join</button>
+                            </article>
                             </div>
                         </div>
                     </div>
                     <div class="box">
                         <div class="gamecard apex">
                             <div class="center">
+                                <article>
                                 <img src="assets/img/apexicon.png" class="gamepreview center">
-                                <p class="gamelabel poppinBold">Apex Legend</p>
+                                <p id="apex" class="gamelabel poppinBold">Apex Legend</p>
                                 <button class="button apex center poppinSemiBold">Join</button>
+                            </article>
                             </div>
                         </div>
                     </div>
@@ -117,5 +142,6 @@
                 <span class="dot"></span>
              </div>
         </footer>
+        <script src="assets/main.js">x</script>
     </body>
 </html>
